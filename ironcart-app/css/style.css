@@ -184,4 +184,8 @@ header img {
     article:first-of-type{
         margin-right: 20px;
     }
+
+    article {
+        width: 50%
+    }
 }
