@@ -2,9 +2,11 @@
 
 Aplicación base para el workshop WeBuild @ Ironhack Madrid
 
-Recuerda que necesitarás disponer de estos archivos en tu portátil para el WeBuild, así como los programas [Visual Studio Code](https://code.visualstudio.com/Download) y el [navegador Chrome](https://www.google.com/chrome/) instalados.
+Recuerda que necesitarás disponer de estos archivos en tu portátil para el evento, así como los programas [Visual Studio Code](https://code.visualstudio.com/Download) y el [navegador Chrome](https://www.google.com/chrome/) instalados.
 
-No son necesarios conocimientos previos para asistir al taller. Entradas, programa y horarios [en la ficha del evento](https://www.eventbrite.com/e/we-build-aprende-a-programar-en-javascript-un-prototipo-funcional-tickets-87229841805).
+No son necesarios conocimientos previos para asistir al taller. 
+
+Entradas, programa y horarios [en la ficha del evento](https://www.eventbrite.com/e/we-build-aprende-a-programar-en-javascript-un-prototipo-funcional-tickets-87229841805).
 
 ## Cómo descargar los archivos
 
