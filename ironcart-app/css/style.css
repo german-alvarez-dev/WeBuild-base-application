@@ -1,0 +1,187 @@
+/* ----- GENERAL STYLING ----- */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    --header-height: 60px;
+    --border-style: 1px solid rgba(0,0,0,.3);
+    min-height: 100vh;
+    padding: 40px;
+}
+
+h1, h2, h3 {
+    font-weight: 200;
+}
+
+h1 {
+    line-height: var(--header-height);
+    margin: 0;
+}
+
+h2 {
+    margin: 40px 0 20px;
+    font-size: 2em;
+}
+
+h2:last-of-type {
+    display: inline-block;
+    position: relative;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4;
+}
+
+#counter {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #017cc3;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    transition: opacity .2s;
+}
+
+/* ----- TOP HEADER ----- */
+
+header {
+    display: flex;
+    margin-bottom: 40px;
+    border-bottom: var(--border-style);
+    padding-bottom: 20px;
+}
+
+header img {
+    height: var(--header-height);
+    margin-right: 10px;
+}
+
+
+
+
+/* ----- PANELS STYLING ----- */
+
+#availableFoodsList, #buyingFoodsList {
+    list-style: none;
+    height: 350px;
+    overflow: scroll;
+    padding: 20px;
+    border: var(--border-style);
+}
+
+#availableFoodsList h3, #availableFoodsList p {
+    margin-left: 75px;
+}
+
+
+#availableFoodsList li, #buyingFoodsList li {
+    border-bottom: var(--border-style);
+    margin-bottom: 20px;
+}
+
+#availableFoodsList button, #buyingFoodsList button {
+    float: right;
+    padding: 3px 11px;
+    font-size: .8rem;
+    margin-top: -40px;
+    font-weight: 400;
+    color: #212529;
+    background-color: transparent;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border: 1px solid;
+    transition: background .5s;
+}
+
+#availableFoodsList button:hover, #buyingFoodsList button:hover {
+    background: rgb(233, 233, 233);
+}
+
+#availableFoodsList img {
+    float: left;
+    width: 60px;
+}
+
+#availableFoodsList p {
+    font-size: .8em;
+}
+
+#availableFoodsList p:last-of-type {
+    font-size: 1.1em;
+}
+
+#buyingFoodsList {
+    height: 300px;
+    margin-bottom: 0;
+}
+
+#buyingFoodsList li {
+    justify-content: space-evenly;
+}
+
+#buyingFoodsList img {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+#buyingFoodsList p:last-of-type {
+    text-align: right;
+    font-size: .8em;
+    margin-top: 20px;;
+}
+
+#buyingFoodsList h3 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+
+
+/* ----- RESULTS SUMMARY STYLING ----- */
+
+#result {
+    height: 36px;
+    border: var(--border-style);
+    background: rgba(0,0,0,.02);
+    margin-top: 10px;
+    padding: 0 10px;
+    line-height: 36px;
+    text-align: right;
+    font-weight: 500;
+}
+
+
+ button:active,
+ button:focus,
+ button:hover{
+    outline:none !important;
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        display: flex;
+        align-content: center;
+    }
+
+    h2 {
+        margin: 20px 0
+    }
+
+    article:first-of-type{
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronCart | ¿Qué necesitas comprar?</title>
+
+    <!-- Tipografías y estilos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/ironhack-logo-200.png">
+</head>
+
+<body>
+
+    <header>
+        <img src="img/ironhack-logo-200.png" alt="Logotipo Ironhack">
+        <h1>IronCart</h1>
+    </header>
+
+    <main>
+
+        <article>
+
+            <h2>Catálogo</h2>
+
+            <ul id="availableFoodsList">
+                <li>
+                    <img src="img/sandia.jpg" alt="Sandía">
+                    <h3>Sandía</h3>
+                    <p>Sin pepitas, precio por 100 gramos. Peso unitario aproximado 600 / 800 gramos. Origen
+                        España.</p>
+                    <p>Precio: 3.2€</p>
+                    <button data-food="0011AL">Añadir</button>
+                </li>
+                <li>
+                    <img src="img/pepino.jpg" alt="Pepino">
+                    <h3>Pepino</h3>
+                    <p>Precio unitario, peso unitario aproximado 100 / 200 gramos. Variedad de origen francés.
+                    </p>
+                    <p>Precio: 1.15€</p>
+                    <button data-food="0010AL">Añadir</button>
+                </li>
+                <li>
+                    <img src="img/espinaca.jpg" alt="Espinaca">
+                    <h3>Espinaca</h3>
+                    <p>Manojo de 150 gramos. Variedad alta de tronco estrecho, origen España.</p>
+                    <p>Precio: 1€</p>
+                    <button data-food="0009AL">Añadir</button>
+                </li>
+            </ul>
+
+        </article>
+
+        <article>
+
+            <h2>Lista de la compra <span id="counter">3</span></h2>
+
+            <ul id="buyingFoodsList">
+                <li>
+                    <img src="img/lechuga.jpg" alt="Lechuga romana">
+                    <h3>Lechuga romana</h3>
+                    <p>Variedad de tronco ancho, alargado y erguido. Precio unitario, peso aproximado 250
+                        gramos. Embalaje plástico.
+                    </p>
+                    <p>Energía: 13 kcal. | Proteínas: 1 gr. | Grasa: 0 gr. | Precio: 3.15€</p>
+                </li>
+                <li>
+                    <img src="img/tomate.jpg" alt="Tomate rama">
+                    <h3>Tomate rama</h3>
+                    <p>Rama entera original. Variedad de tomate ensalada en rama, peso aproximado 200 gramos.
+                        Origen España.</p>
+                    <p>Energía: 18 kcal. | Proteínas: 0 gr. | Grasa: 0 gr. | Precio: 2€</p>
+                </li>
+                <li>
+                    <img src="img/berenjena.jpg" alt="Berenjena">
+                    <h3>Berenjena</h3>
+                    <p>Precio unitario, peso unitario aproximado 100 / 200 gramos. Variedad de origen francés.
+                    </p>
+                    <p>Energía: 25 kcal. | Proteínas: 0 gr. | Grasa: 0 gr. | Precio: 3.2€</p>
+                </li>
+            </ul>
+            <div>
+                <p id="result">Precio total para 3 artículo(s): 8.35€</p>
+            </div>
+        </article>
+
+    </main>
+
+</body>
+
+</html>
