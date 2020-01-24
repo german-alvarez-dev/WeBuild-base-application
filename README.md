@@ -1,6 +1,6 @@
 # WeBuild base application
 
-Aplicación base para el workshop WeBuild @ Ironhack Madrid
+Aplicación base para el workshop **We/Build @ Ironhack Madrid**
 
 Recuerda que necesitarás disponer de estos archivos en tu portátil para el evento, así como los programas [Visual Studio Code](https://code.visualstudio.com/Download) y el [navegador Chrome](https://www.google.com/chrome/) instalados.
 
